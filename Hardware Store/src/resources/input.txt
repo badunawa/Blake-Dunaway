@@ -1,0 +1,11 @@
+COST 'Multi Bit Ratcheting'
+FIND 'Multi Bit Ratcheting'
+SELL 'Hammer' 1
+QUANTITY 'Rakes'
+FIRE 'Joshua Filler'
+HIRE 'Lewis hamilton' 35 G
+PROMOTE 'Lewis hamilton' M
+ADD 'Plank-616' 379456  1  1
+SCHEDULE
+SAW
+EXIT
