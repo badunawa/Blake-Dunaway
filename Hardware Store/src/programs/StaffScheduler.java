@@ -10,9 +10,9 @@ import java.nio.file.Path;
 import java.util.*;
 
 public class StaffScheduler {
-    private static File staffAvailabilityFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/staff_availability_IN.txt");
-    private static File shiftSchedulesFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/shift_schedules_IN.txt");
-    private static File storeScheduleFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/store_schedule_OUT.txt");
+    private static File staffAvailabilityFile = new File("Hardware Store/src/resources/staff_availability_IN.txt");
+    private static File shiftSchedulesFile = new File("Hardware Store/src/resources/shift_schedules_IN.txt");
+    private static File storeScheduleFile = new File("Hardware Store/src/resources/store_schedule_OUT.txt");
 
     public static void scheduleStaff() throws IOException {
         List<String> strs= new ArrayList<>();

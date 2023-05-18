@@ -14,12 +14,12 @@ import java.util.Scanner;
 public class FileUtils {
     String userHome = System.getProperty("user.home");
 
-    private static File inputFile = new File(Path.of("Hardware Store/src/resources/input.txt").toAbsolutePath().toUri());
-    private static File outputFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/output.txt");
-    private static File inventoryFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/inventory.txt");
-    private static File staffAvailabilityFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/staff_availability_IN.txt");
-    private static File shiftSchedulesFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/shift_schedules_IN.txt");
-    private static File storeScheduleFile = new File("ProjectStarterCode/src/edu/iu/c212/resources/store_schedule_OUT.txt");
+    private static File inputFile = new File("Hardware Store/src/resources/input.txt");
+    private static File outputFile = new File("Hardware Store/src/resources/output.txt");
+    private static File inventoryFile = new File("Hardware Store/src/resources/inventory.txt");
+    private static File staffAvailabilityFile = new File("Hardware Store/src/resources/staff_availability_IN.txt");
+    private static File shiftSchedulesFile = new File("Hardware Store/src/resources/shift_schedules_IN.txt");
+    private static File storeScheduleFile = new File("Hardware Store/src/resources/store_schedule_OUT.txt");
 
     public static List<Item> readInventoryFromFile() throws IOException {
         //System.out.println(inventoryFile/*.toURI()*/.getPath() + "\n" + inventoryFile.exists());
