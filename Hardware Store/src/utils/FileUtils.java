@@ -22,9 +22,6 @@ public class FileUtils {
     private static File storeScheduleFile = new File("Hardware Store/src/resources/store_schedule_OUT.txt");
 
     public static List<Item> readInventoryFromFile() throws IOException {
-        //System.out.println(inventoryFile/*.toURI()*/.getPath() + "\n" + inventoryFile.exists());
-        // depending on your OS, toURI() may need to be used when working with paths
-        // TODO
         List<Item> items = new ArrayList<>();
         List<String> strings = new ArrayList<>();
         Scanner in = new Scanner(Path.of(inventoryFile.toURI()));
